@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400,100,300,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; 
+
+}
+body{
+  width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #231942;
+}
+.bmi-calculator{
+  background-color: whitesmoke;
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  display: flex;
+
+  
+}
+.box{
+  background-color: #be95c4;
+  width: 400px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow:  0px 5px 20px rgba(9, 97, 133, 0.5);
+  background-image:url(./picture/bmi_image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  
+}
+.data{
+  padding: 10px;
+  background-color: #e0b1cb;
+  width: 400px;border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow:  10px 5px 20px rgba(9, 97, 133, 0.5);
+  flex:1;
+
+  
+}
+h1{
+  font-weight: 100;
+  color: #3c1155;
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  padding: 10px 0 ;
+
+}
+ input-container{
+  margin-bottom: 20px;
+ } 
+ label{
+  display: block;
+  margin-bottom: 5px;
+  color:#381730 ;
+
+ }
+ input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0b1cb;
+  border-radius: 20px;
+ margin-bottom: 10px; 
+}
+ button{
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #71b8bd;
+  border: 2px solid #71b8bd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #190722;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    background-color: #ffffff;
+    color: #71b8bd;
+    box-shadow: 0 0 20px rgba(9, 97, 133, 0.5);
+  }
+  
+ }
+ .result{
+  border:  0.7px solid #231942;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius:10px ;
+ }
+ .result p{
+  color: rgba(2, 6, 24, 0.4);
+ margin: 10px 20px;
+ }
+ .result p:first-child{
+  color: #231942 ;
+  font-weight: bold;
+ }
